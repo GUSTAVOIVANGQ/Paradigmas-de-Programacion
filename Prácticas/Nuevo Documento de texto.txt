@@ -1,0 +1,323 @@
+
+Imagen de perfil de 3cv1 Paradigmas de Programación ciclo 23-2.
+General
+Reunirse 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+01/06 01:38 p. m.
+
+Ya estamos en el 2105
+Responder
+viernes, 2 de junio de 2023
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+02/06 11:21 a. m.
+Editado
+
+De tarea, revisar más métodos de objetos String (concat, replace, etc) y de métodos de Math. (pow, max, cos, etc.). próxima clase evaluación continua de Java. En el salón de clases padarémos al frente a usar los métodos.
+ 2
+Responder
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+01/06 04:19 p. m.
+
+Gracias a todos los que ya contestaron su evaluación en el saes, sus décimas de evaluación continua, las asignare hoy y mańana, antes de las 2 pm.  Después ya no. Saludos
+4 respuestas de CRISTOPHER EDUARDO y JUAN VICENTE . Presione Entrar para expandir las respuestas.
+4 respuestas de CRISTOPHER EDUARDO y JUAN VICENTE
+Responder
+lunes, 5 de junio de 2023
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+05/06 08:56 a. m.
+
+https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
+
+LA CLASE MATH
+Responder
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+05/06 08:57 a. m.
+
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#:~:text=Class%20String&text=The%20String%20class%20represents%20character,changed%20after%20they%20are%20created.
+
+La clase String
+Responder
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+05/06 01:41 p. m.
+
+La clase de hoy es en el 1204. salón
+Responder
+martes, 6 de junio de 2023
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+06/06 01:03 p. m.
+
+Hola la clase será en el lab 2106 .
+Responder
+jueves, 8 de junio de 2023
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+08/06 09:47 a. m.
+
+Clase de hoy , en el
+lab 2105. 👍
+✌️
+😐
+😃
+💯
+Responder
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+08/06 02:56 p. m.
+
+package javaapplication7;
+public class JavaApplication7 {​​​​​​​
+    public static void main(String[] args) {​​​​​​​
+        StringBuffer s =
+  new
+  StringBuffer("Sponge Bob Squarepants and Patrick star!");
+       
+        System.out.println(""+s.length());
+        System.out.println(""+s.reverse());
+        System.out.println("s = " +
+                s.replace(0, 6, "Squidward")
+        );
+        System.out.println("s = " +
+       s.replace(s.length()-6 , s.length()-1 , "Mr. Krabs")
+        );
+        System.out.println("s = " + s.reverse());
+        System.out.println("s = " + s.delete(0, s.length()/2));
+        System.out.println("s = " + s.insert(0, "Plankton"));
+       
+       
+       
+    }​​​​​​​
+   
+}​​​​​​​
+Responder
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+08/06 02:56 p. m.
+
+package javaapplication6;
+ 
+public class JavaApplication6 {​​​​​​​
+    public static void main(String[] args) {​​​​​​​
+     String miNombre = "Juan Vicente Garcia Sales";
+        System.out.println("miNombre = " +
+                miNombre.length());
+        System.out.println("miNombre = " +
+                miNombre.codePointAt(0));
+        for (int i = 0; i < miNombre.length(); i++) {​​​​​​​
+            System.out.println(
+                miNombre.charAt(i) +" " +
+                miNombre.codePointAt(i)+" ");
+        }​​​​​​​
+        miNombre  = miNombre.toUpperCase();
+        for (int i = 0; i < miNombre.length(); i++) {​​​​​​​
+            System.out.println(
+                miNombre.charAt(i) +" " +
+                miNombre.codePointAt(i)+" ");
+        }​​​​​​​
+        System.out.println("subcadena = " +
+        miNombre.substring(10));
+        
+        System.out.println("subcadena = " +
+        miNombre.substring(2,8));
+        
+        System.out.println("remplazo = " +
+        miNombre.replace('A', '@'));
+        
+        int x=15;
+        for (int i = 0; i < 21; i++) {​​​​​​​
+        System.out.println( 
+        String.format("x=%x", i)
+          );    
+        }​​​​​​​
+        System.out.println("valueOf = " +
+  String.valueOf(x<30&&!(x >12)).substring(2)
+                );
+        
+        
+        
+    }​​​​​​​
+    
+}​​​​​​​
+ 
+Responder
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+08/06 02:56 p. m.
+Editado
+
+Tarea. REsumen de arreglos escrito a mano.  arreglos tipo. int. char. byte. boolean. long . short. float y double. y tipo String y StringBuffer
+
+declaración, uso, inicialización, ejemplos, etc
+Máximo 1 cuartilla
+Valor 0.5 puntos
+Responder
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+08/06 03:13 p. m.
+Editado
+
+The main characters of the series: Pearl, Plankton, and Karen: Sandy, Mr. Krabs, SpongeBob, Squidward, Gary, Patrick, and Mrs. Puff.
+Responder
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+08/06 04:06 p. m.
+
+En la sección de archivos està el instaldor de jdk y netbeans para quien quiera instalarlo en su laptop
+Responder
+lunes, 12 de junio de 2023
+Imagen de perfil de Juan Vicente Garcia Sales.
+Juan Vicente Garcia Sales
+12/06 09:30 a. m.
+
+Buen día, la java adventure hoy 2106 LAB
+Responder
+
+ Nueva conversación
+[08/06 02:56 p. m.] Juan Vicente Garcia Sales
+    
+package javaapplication6;
+
+
+public class JavaApplication6 {​​​​​​​
+    public static void main(String[] args) {​​​​​​​
+     String miNombre = "Juan Vicente Garcia Sales";
+        System.out.println("miNombre = " +
+                miNombre.length());
+        System.out.println("miNombre = " +
+                miNombre.codePointAt(0));
+        for (int i = 0; i < miNombre.length(); i++) {​​​​​​​
+            System.out.println(
+                miNombre.charAt(i) +" " +
+                miNombre.codePointAt(i)+" ");
+        }​​​​​​​
+        miNombre  = miNombre.toUpperCase();
+        for (int i = 0; i < miNombre.length(); i++) {​​​​​​​
+            System.out.println(
+                miNombre.charAt(i) +" " +
+                miNombre.codePointAt(i)+" ");
+        }​​​​​​​
+        System.out.println("subcadena = " +
+        miNombre.substring(10));
+        
+        System.out.println("subcadena = " +
+        miNombre.substring(2,8));
+        
+        System.out.println("remplazo = " +
+        miNombre.replace('A', '@'));
+        
+        int x=15;
+        for (int i = 0; i < 21; i++) {​​​​​​​
+        System.out.println( 
+        String.format("x=%x", i)
+          );    
+        }​​​​​​​
+        System.out.println("valueOf = " +
+  String.valueOf(x<30&&!(x >12)).substring(2)
+                );
+        
+        
+        
+    }​​​​​​​
+    
+}​​​​​​​
+ 
+
+
+
+<https://teams.microsoft.com/l/message/19:py2zBq19t5LttCs4UzvJLtO8I2ZP09ODi6bvzPUS4rQ1@thread.tacv2/1686257807044?tenantId=f94bf4d9-8097-4794-adf6-a5466ca28563&amp;groupId=45e5cef9-98b6-4be1-94ba-4f7ef952f33f&amp;parentMessageId=1686257807044&amp;teamName=3cv1 Paradigmas de Programación ciclo 23-2&amp;channelName=General&amp;createdTime=1686257807044&amp;allowXTenantAccess=false>
